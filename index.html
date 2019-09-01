@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+        
+<link rel="stylesheet" href="css/topcoat-desktop-dark.min.css"/>
+<link  id="hostStyle" rel="stylesheet" href="css/styles.css"/>
+
+<title></title>
+</head>
+
+<body class="hostElt">
+
+    <div id="content">        
+        
+        <div>                
+            <button id="sendMsg" class="topcoat-button--large hostFontSize">send message</button>                
+        </div>   
+        <form name="numbers">
+            <label for="" class="topcoat-radio-button">
+                <input type="radio" name="number" value="1" checked>
+                <div class="topcoat-radio-button__checkmark"></div>
+                1
+            </label>
+            <label for="" class="topcoat-radio-button">
+                <input type="radio" name="number" value="2">
+                <div class="topcoat-radio-button__checkmark"></div>
+                2
+            </label>
+            <label for="" class="topcoat-radio-button">
+                <input type="radio" name="number" value="3">
+                <div class="topcoat-radio-button__checkmark"></div>
+                3
+            </label>
+        </form>
+        
+    </div>
+    
+    <!-- These are debugging shortcuts.  Class debuglink items only appear in debug mode  -->
+    <span class="debuglink" id="reload">Reload</span>
+    <span class="debuglink" id="debug">Debug</span>
+    <span class="debuglink" id="sources">Sources</span>
+    
+    <script src="js/libs/CSInterface.js"></script>
+    <script src="js/libs/jquery-2.0.2.min.js"></script>
+
+    <script src="js/themeManager.js"></script>
+    <script src="js/libs/Vulcan.js"></script>
+    <script src="js/main.js"></script>
+
+        
+</body>
+</html>
